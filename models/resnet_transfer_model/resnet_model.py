@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 
 def main():
-    data_dir = r"models/resnet_transfer_model/Separated_Dataset"
+    data_dir = r"models\resnet_transfer_model\Separated_Dataset"
     train_dir = os.path.join(data_dir, "train")
     valid_dir = os.path.join(data_dir, "valid")
     test_dir = os.path.join(data_dir, "test")
